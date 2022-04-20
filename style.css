@@ -1,0 +1,244 @@
+body{
+	background-color: #f4f4f4;
+	background-image: url('../images/API.jpg');
+	color: #555;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	line-height: 1.6em;
+	margin: 0;
+}
+
+.container{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+
+.container img{
+	width: 60%;
+}
+
+#main-header{
+	background-color: #0504aa;
+	color: #fff;
+}
+
+#navbar{
+	background-color: #333;
+	color: #fff;
+}
+
+#navbar ul{
+	padding: 0;
+	list-style: none;
+}
+
+#navbar li{
+	display: inline;
+}
+
+#navbar a{
+	color: #fff;
+	text-decoration: none;
+	font-size: 18px;
+	padding-right: 15px;
+}
+
+
+#showcase{
+	background-image: url('../images/lol.jpg')
+	background-position: center right;
+	min-height: 300px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+#showcase h1{
+	color: #fff;
+	font-size: 50px;
+	line-height: 1.6em;
+	padding-top:30px ;
+}
+
+#main{
+	float: left;
+	width: 60%;
+	background: #0504aa;
+	border: 5px #ccc solid;
+	color: #fff;
+	padding: 30px;
+	border-radius: 15px;
+  	text-align: center;
+	box-sizing: border-box;
+}
+
+#main h1{
+	padding: 1rem;
+	border-radius: 15px;
+	font-size: 2rem;
+	color: #333;
+	background-color: #ccc;
+	text-transform: capitalize;
+}
+
+#main img{
+	object-fit: cover;
+	border-radius: 15px;
+	border: 5px #ccc solid;
+	color: #fff;
+}
+
+#sidebar{
+	float: right;
+	width: 38%;
+	background: #0504aa;
+	border: 5px #ccc solid;
+	color: #fff;
+	padding: 20px;
+	border-radius: 15px;
+	text-align: center;
+	box-sizing: border-box;
+}
+#sidebar h1{
+	padding: 1rem;
+	border-radius: 15px;
+	font-size: 2rem;
+	color: #333;
+	background-color: #ccc;
+	text-transform: capitalize;
+}
+
+#sidebar:hover{
+	background:goldenrod ;
+	color: #fff;
+}
+
+#sidebar ul{
+	text-align: left;
+	color: #f4f4f4;
+}
+
+#sidebar2{
+	float: right;
+	width: 38%;
+	background: #0504aa;
+	border: 5px #ccc solid;
+	color: #fff;
+	padding: 40px;
+	border-radius: 15px;
+	text-align: center;   
+	box-sizing: border-box;
+}
+
+#sidebar2 h1{
+	padding: 1rem;
+	border-radius: 15px;
+	font-size: 2rem;
+	color: #333;
+	background-color: #ccc;
+	text-transform: capitalize;
+}
+#sidebar2:hover{
+	background:goldenrod ;
+	color: #fff;
+}
+
+#sidebar2 ul{
+	text-align: left;
+	color: #f4f4f4;
+	padding-left: 20px;
+	list-style: square;
+	list-style: none;
+}
+
+#sidebar2 li{
+	padding-bottom: 8px;
+	list-style-image: url('../images/click.png');
+}
+.blog{
+	min-height: 60vh;
+	margin: 10vh;
+	background: #0504aa;
+	background-size: cover;
+	background-position: center;
+	display: grid;
+	padding-top: 8rem;
+	padding: 20px;
+	border-radius: 15px;
+	border: 5px #ccc solid;
+	color: #ccc;
+}
+
+.blog h3{
+	padding: 1rem;
+	border-radius: 10px;
+	font-size: 1.5rem;
+	color: #333;
+	background-color: #ccc;
+	text-transform: capitalize;
+}
+
+.blog h4{
+	padding: 1rem;
+	border-radius: 10px;
+	font-size: 1.5rem;
+	color: #333;
+	background-color: #ccc;
+	text-transform: capitalize;
+}
+
+.blog h5{
+	padding: 1rem;
+	border-radius: 10px;
+	font-size: 1.5rem;
+	color: #333;
+	background-color: #ccc;
+	text-transform: capitalize;
+}
+
+.blog li{
+	padding-bottom: 8px;
+	list-style-image: url('../images/click.png');
+}
+
+.blog:hover{
+	background:goldenrod ;
+	color: #fff;	
+}
+
+#main-footer{
+	background: #333;
+	color: #fff;	
+	text-align: center;
+	padding: 20px;
+	margin-top: 40px;
+}
+
+.fix-me{
+	position: fixed;
+	top: 200px ;
+	width: 10%;
+	padding: 10px;
+	border-radius: 15px;
+}
+
+.button{
+	background-image: url('../images/OIP.jpg');
+	color: #fff;
+	padding: 10px 15px;
+	border: none;
+}
+
+.button:hover{
+	background:blue ;
+	color: #fff;
+}
+
+@media(max-width: 600px){
+	#main{
+		width: 100%;
+		float: none;
+	}
+	
+	}
+}
